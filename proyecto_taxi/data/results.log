@@ -1,0 +1,21 @@
+
+2025-11-04 20:29:40.536000Z | cliente=Alicia; status=Cancelado (sin conductor)
+2025-11-04 20:29:40.536000Z | Viaje c3ea0973-506e-48a2-9ad1-878e9bc7c2e5 solicitado por Alicia de Parque a Centro
+2025-11-04 20:30:00.554000Z | cliente=Alicia; status=Cancelado (sin conductor)
+2025-11-04 20:30:00.558000Z | Viaje 923962d8-e643-44a4-9fee-c2c68943e53c solicitado por Alicia de Parque a Centro
+2025-11-04 20:30:20.570000Z | cliente=Alicia; status=Cancelado (sin conductor)
+2025-11-04 20:30:20.573000Z | Viaje b513fbad-768a-4075-b431-f2b0206faebf solicitado por Alicia de Parque a Centro
+2025-11-04 20:30:20.708000Z | Viaje bc5062cc-26fe-4795-9fe0-de5aa185f39a solicitado por Ana de Parque a Centro
+2025-11-04 20:30:40.577000Z | cliente=Alicia; status=Cancelado (sin conductor)
+2025-11-04 20:30:40.580000Z | Viaje 8f03a9bd-1035-49cc-8e23-ab3932ab915d solicitado por Alicia de Parque a Centro
+2025-11-04 20:30:40.717000Z | cliente=Ana; status=Cancelado (sin conductor)
+2025-11-04 20:30:40.721000Z | Viaje 5860a188-42cd-4e75-93e3-195deb7c504d solicitado por Ana de Parque a Centro
+2025-11-04 20:31:28.352000Z | Viaje 5320f5b2-19c4-4e90-bd5f-55b129b0b34e solicitado por Ana de Parque a Centro
+2025-11-04 20:31:48.369000Z | cliente=Ana; status=Cancelado (sin conductor)
+2025-11-04 20:35:11.678000Z | Viaje 0cdd77bc-8f5c-43c4-b2a5-2f95b13af00d solicitado por Alicia de Parque a Centro
+2025-11-04 20:35:21.687000Z | cliente=Alicia; status=Cancelado (sin conductor)
+2025-11-04 20:37:16.455000Z | Viaje 12fe1122-c204-40c9-bad6-a45c697aee80 solicitado por Alicia de Parque a Centro
+2025-11-04 20:37:36.471000Z | cliente=Alicia; status=Cancelado (sin conductor)
+2025-11-04 20:38:19.697000Z | Viaje e1bce9fe-2ffe-4b1e-a7c7-bfbab580e5fc solicitado por Alicia de Parque a Centro
+2025-11-04 20:38:24.720000Z | cliente=Alicia; status=Cancelado (sin conductor)
+2025-11-06 22:28:57.682000Z | Viaje fb27fbf3-76c1-4c9e-98ab-52969cc27391 solicitado por luis de Centro a Parque

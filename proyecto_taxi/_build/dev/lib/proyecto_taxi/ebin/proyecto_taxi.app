@@ -1,0 +1,12 @@
+{application,proyecto_taxi,
+             [{modules,['Elixir.Glicko2','Elixir.Match','Elixir.Matchmaker',
+                        'Elixir.ProyectoTaxi.Application','Elixir.RatingRepo',
+                        'Elixir.Taxi.Location','Elixir.Taxi.Server',
+                        'Elixir.Taxi.Supervisor','Elixir.Taxi.Trip',
+                        'Elixir.Taxi.UserManager']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,elixir_uuid]},
+              {description,"proyecto_taxi"},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.ProyectoTaxi.Application',[]}}]}.
