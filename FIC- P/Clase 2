@@ -1,0 +1,20 @@
+* cat /etc/passwd
+
+murcia:x:1000:983:example:/home/murcia:/usr/bin/bash
+murcia= nombre  usuario
+x= contraseña encriptada usuario
+1000 = User ID
+983 = Group ID
+example = User Personal Info
+/home/murcia = ruta personal del usuario
+/usr/bin/bash = interprete habilitado al usuario
+
+* sudo cat /etc/shadow
+
+murcia:$y$j9T$0nC0Gr2goL.TrRdiqdRIQ0$HFBVSYUMF1UrHmH/98.OJ6zwdiehuOcWnbFB0gD.ryA:20367:0:99999:7:::
+murcia = usuario
+$y$j9T$0nC0Gr2goL.TrRdiqdRIQ0$HFBVSYUMF1UrHmH/98.OJ6zwdiehuOcWnbFB0gD.ryA = contraseña encriptada
+
+* sudo useradd nombre = Add user
+* sudo passwd nombre = update user passwd
+*
