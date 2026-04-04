@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Practicas/1/1.iml" filepath="$PROJECT_DIR$/Practicas/1/1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practicas/2/2.iml" filepath="$PROJECT_DIR$/Practicas/2/2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practicas/3/3.iml" filepath="$PROJECT_DIR$/Practicas/3/3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practicas/Actividad3/Actividad3.iml" filepath="$PROJECT_DIR$/Practicas/Actividad3/Actividad3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estructura de datos.iml" filepath="$PROJECT_DIR$/Estructura de datos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks/Generic/Generic.iml" filepath="$PROJECT_DIR$/Homeworks/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Homeworks.iml" filepath="$PROJECT_DIR$/Homeworks/Homeworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Plantilla/Plantilla.iml" filepath="$PROJECT_DIR$/Homeworks/Plantilla/Plantilla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practicas/Practicas.iml" filepath="$PROJECT_DIR$/Practicas/Practicas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/RegistroVentasDiarias/RegistroVentasDiarias.iml" filepath="$PROJECT_DIR$/Homeworks/RegistroVentasDiarias/RegistroVentasDiarias.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Structures/Structures.iml" filepath="$PROJECT_DIR$/Structures/Structures.iml" />
     </modules>
   </component>
 </project>
