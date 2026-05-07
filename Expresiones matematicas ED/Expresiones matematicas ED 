@@ -1,0 +1,106 @@
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+//Infija-> Polaca (Prefija)
+
+(a+b)*c= (+ab)*c = *+abc
+(x+y-z)/a = (+xy-z)/a = (-+xyz)/a=/-+xyza
+x*(a/b)-c = x*(/ab)-c = */abx-c = -*/abxc
+(m*n)/(b*c) = (*mn)/(*bc) = /*mn*bc
+A*B + C/D = *AB + /CD = +*AB/CD
+(A+B)+(C+D) = +AB++CD = ++AB+CD
+(a+b-c)*(e/f)-(g-h/i) = (+ab-c)*(/ef)-(g-/hi) = (-+abc)*(/ef)-(-/hig) = *-+abc/ef-(-/hig) =-*-+abc/ef-/hig
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+// Infija -> Polaca Inversa (Posfija)
+
+(a+b)*c = (ab+)*c = cab+*
+(x+y-z)/a = (xy+-z)/a = (xy+z-)/a = axy+z-/
+x*(a/b)-c = x*(ab/)-c = xab/*-c = xab/*c-
+(m*n)/(b*c) = (mn*) / (bc*) = mn*bc*/
+A+B+C+D
+
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+(5+(8-6)*(4+3^2))-(7*(2+1)) = (5+-8 6*(4+^3 2))-(7*(+2 1)) = (+-5 8 6 * (+4^3 2))-(*7+2 1) = (*+-5 8 6+4^3 2)-(*7+2 1) = -*+-5 8 6+4^3 2*7+2 1
+
+5 8 6 - 4 3 2 ^ + * + 7 2 1 + * -
+
+
+
+Evaluacion
+
+pila.add(5), pila = 5
+pila.add(8), pila = 8,5
+pila.add(6), pila = 6,8,5
+
+operador = -
+op2= pila.pop()=6
+op1= pila.pop()=8
+z=8-6=2
+
+pila = 5
+pila.add(z), pila = 2,5
+pila.add(4), pila = 4,2,5
+pila.add(3), pila = 3,4,2,5
+pila.add(2), pila = 2,3,4,2,5
+
+operador = ^
+op2 = pila.pop() = 2
+op1 = pila.pop() = 3
+z = 3^2 = 9
+
+pila = 4,2,5
+pila.add(z), pila = 9,4,2,5
+
+operador = +
+op2 = pila.pop() = 9
+op1 = pila.pop() = 4
+z = 4+9 = 13
+
+pila = 2,5
+pila.add(z), pila = 13,2,5
+
+operador = *
+op2 = pila.pop() = 13
+op1 = pila.pop() = 2
+z = 2*13 = 26
+
+pila = 5
+pila.add(z), pila = 26,5
+
+operador = +
+op2 = pila.pop() = 26
+op1 = pila.pop() = 5
+z = 5+26 = 31
+
+pila =
+pila.add(z), pila = 31
+pila.add(7), pila = 7,31
+pila.add(2), pila = 2,7,31
+pila.add(1), pila = 1,2,7,31
+
+operador = +
+op2 = pila.pop() = 1
+op1 = pila.pop() = 2
+z= 2+1 = 3
+
+pila = 7,31
+pila.add(z), pila = 3,7,31
+
+operador = *
+op2 = pila.pop() = 3
+op1 = pila.pop() = 7
+z = 7*3 = 21
+
+pila = 31
+pila.add(z), pila = 21,31
+
+operador = -
+op2 = pila.pop() = 21
+op1 = pila.pop() = 31
+z= 31-21= 10
+
+pila =
+pila.add(z), pila = 10
